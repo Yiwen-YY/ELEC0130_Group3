@@ -146,21 +146,6 @@ function convertToCSV(jsonData) {
     return csv;
 }
 
-// function downloadData() {
-//     // 向服务器发送请求获取 supermarket 数据库中所有 collection 的数据
-//     fetch('http://localhost:4000/database-data?database=supermarket')
-//         .then(response => response.json())
-//         .then(data => {
-//             // 对每个 collection 的数据进行处理，分别生成并下载对应的 CSV 文件
-//             data.forEach(collection => {
-//                 const csvContent = convertToCSV(collection.data);
-//                 downloadCSV(csvContent, `${collection.name}.csv`);
-//             });
-//         })
-//         .catch(error => {
-//             console.error('Error:', error);
-//         });
-// }
 function handleDownload() {
     downloadData(dataDic)
 }

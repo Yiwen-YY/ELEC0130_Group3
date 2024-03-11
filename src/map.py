@@ -122,7 +122,7 @@ def drawMap(last_location):
     current_dot, = ax.plot(last_location[0], last_location[1], 'bo', markersize=8)       
 
 
-    plt.savefig(f'./location.png')
+    plt.savefig(f'./src/location.png')
     # plt.show()
 
 
@@ -136,5 +136,5 @@ if __name__ == "__main__":
             last_data = coll.find().sort([('_id', DESCENDING)]).limit(1)
             last_data = [doc for doc in last_data][0]
             last_location = [last_data["x"], last_data["y"]]
-
+            print(last_location)
             drawMap(last_location)
