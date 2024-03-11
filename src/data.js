@@ -9,6 +9,10 @@ ws.onmessage = function (event) {
     const data = JSON.parse(event.data);
     // console.log(data.data);
 
+    if (document.getElementById('collection2Button').classList.contains('active')) {
+        displayTable(trolleyData);
+    }
+
     obj = data.data[0]
     if (obj && obj.stock_quantity) {
         itemData = data.data;
