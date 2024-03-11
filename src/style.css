@@ -1,0 +1,106 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #333;
+    width: 200px;
+}
+
+.btn-secondary {
+    cursor: pointer;
+    height: 70px;
+    width: 200px;
+    color: #ccc;
+    background-color: #333;
+    /* display: flex; */
+    padding-left: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: left;
+    border: 0;
+}
+
+.top-bar {
+    margin-left: 200px;
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+    color: #333;
+    padding-left: 20px;
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+#tableContainer {
+    margin-left: 220px;
+    margin-right: 20px;
+    margin-top: 130px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+    background-color: #e7e6e6;
+}
+
+th {
+    background-color: #ccc;
+}
+
+#staffButton {
+    position: fixed;
+    top: 70px;
+    right: 160px;
+}
+
+#downloadButton {
+    position: fixed;
+    top: 70px;
+    right: 30px;
+}
+
+button:hover {
+    background-color: #b4b5b5;
+}
+
+.focus {
+    background-color: #616060;
+}
+
+.btn-outline-danger:hover {
+    background-color: inherit;
+    color: #dc3545;
+}
+
+img {
+    position: fixed;
+    top: 110px;
+    right: 200px;
+}
+
+#total-price {
+    position: fixed;
+    top: 80px;
+    left: 230px;
+    font-size: 20px;
+    color: #2a2a2a;
+    display: none;
+}

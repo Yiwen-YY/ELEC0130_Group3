@@ -1,0 +1,113 @@
+[
+    
+    {
+        "brand": "Lu le Petit Beurre",
+        "name": "Biscuits Salt",
+        "price": "￡1.80",
+        "specifications":"167g",
+        "unit_price": "￡1.08/100g",
+        "stock_quantity": "14"
+    },
+    
+    {
+        "brand": "Nescafe",
+        "name": "Latte Sachets",
+        "price": "￡2.25",
+        "specifications":"12*15.5g",
+        "unit_price": "￡1.21/100g",
+        "stock_quantity": "21"
+    },
+
+    {
+        "brand": "PG Tips",
+        "name": "Original Tea Bags",
+        "price": "￡5.15",
+        "specifications":"464g",
+        "unit_price": "￡1.11/100g",
+        "stock_quantity": "20"
+    },
+
+    {
+        "brand": "Duchy",
+        "name": "Oranges",
+        "price": "￡1.60",
+        "specifications":"5",
+        "unit_price": "32p each",
+        "stock_quantity": "55"
+    },
+
+    {
+        "brand": "Ferrero",
+        "name": "Collection",
+        "price": "￡7.00",
+        "specifications":"15",
+        "unit_price": "￡4.07/100g",
+        "stock_quantity": "26"
+    }, 
+
+    {
+        "brand": "King Edward",
+        "name": "Potatoes",
+        "price": "￡1.85",
+        "specifications":"2kg",
+        "unit_price": "32p/kg",
+        "stock_quantity": "63"
+    },
+
+    {
+        "brand": "Yeo",
+        "name": "Valley Organic Kefir Yogurt",
+        "price": "￡1.50",
+        "specifications":"350g",
+        "unit_price": "42.9p/100g",
+        "stock_quantity": "25"
+    },
+
+    {
+        "brand": "Walker's",
+        "name": "Shortbread Highlanders",
+        "price": "￡1.84",
+        "specifications":"160g",
+        "unit_price": "￡1.15/100g",
+        "stock_quantity": "32"
+    }, 
+
+    {
+        "brand": "Dark Horse",
+        "name": "Chardonnary",
+        "price": "￡9.99",
+        "specifications":"75cl",
+        "unit_price": "￡9.99/75cl",
+        "stock_quantity": "11"
+    }, 
+
+    {
+        "brand": "Pringles",
+        "name": "Hot Flamin' Cheese Flavour",
+        "price": "￡1.85",
+        "specifications":"160g",
+        "unit_price": "￡1.16/100g",
+        "stock_quantity": "11"
+    }, 
+
+    {
+        "brand": "Heinz",
+        "name": "Baked Beans",
+        "price": "￡1.40",
+        "specifications":"415g",
+        "unit_price": "￡3.38/kg",
+        "stock_quantity": "14"
+    },
+
+    {
+        "brand": "RedPop",
+        "name": "Apples",
+        "price": "￡1.87",
+        "specifications":"6",
+        "unit_price": "31.2p each",
+        "stock_quantity": "9"
+    }
+
+    
+
+]
