@@ -53,7 +53,9 @@ ws.onmessage = function (event) {
     dataDic["items"] = itemData;
     console.log("do");
     console.log(itemData);
-    dataDic["trolley"] = trolleyData;
+    if (trolleyData) {
+        dataDic["trolley"] = trolleyData;
+    }
     dataDic["button"] = buttonData;
     dataDic["location"] = locationData;
     document.getElementById("downloadButton").removeEventListener("click", handleDownload);
@@ -157,7 +159,7 @@ function downloadData(dataDic) {
 
 function downloadCSV(jsonData, filename) {
     const csv = convertToCSV(jsonData);
-    const csvData = new Blob([csv], { type: 'text/csv;charset=GB2312;' }); // 使用 GB2312 编码格式
+    const csvData = new Blob([csv], { type: 'text/csv;charset=GB2312;' });
     const link = document.createElement('a');
     link.href = window.URL.createObjectURL(csvData);
     link.download = filename;
